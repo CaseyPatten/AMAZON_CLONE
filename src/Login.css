@@ -1,5 +1,5 @@
 .login {
-  background-color: white;
+  background-color: whitesmoke;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,7 @@
   width: 300px;
   height: fit-content;
   display: flex;
+  background-color: ivory;
   flex-direction: column;
   border-radius: 5px;
   border: 1px solid lightgray;
@@ -32,6 +33,7 @@
 
 .login__container > form > h5 {
   margin-bottom: 5px;
+  text-align: left;
 }
 
 .login__container > form > input {
@@ -63,4 +65,10 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: darkgray;
+}
+
+.footer {
+  margin: 15px;
+  width: 300px;
+  display: column;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./Home.css"; 
 import Product from "./Product";
 
 function Home() {
@@ -7,16 +7,12 @@ function Home() {
     <div className="home">
       <div className="home__container">
         <img
-          className="home_image"
+          className="home__image"
           src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
           alt=""
         />
         <div className="home__row">
-          <Product />
-          <Product />
-          
-
-          {/*<Product
+          <Product
             id="12321341"
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
             price={11.96}
@@ -36,16 +32,16 @@ function Home() {
             price={98.99}
             rating={5}
             image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
-          />*/}
+          />
         </div>
         <div className="home__row">
-          {/*<Product
+          <Product
             id="90829332"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
             price={549.63}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-          />*/}
+          />
           <div className="home__row">
            
 
